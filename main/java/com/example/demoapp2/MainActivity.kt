@@ -1,5 +1,6 @@
 package com.example.demoapp2
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,6 +8,7 @@ import androidx.fragment.app.commit
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
+    @SuppressLint("ResourceType")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -25,7 +27,9 @@ class MainActivity : AppCompatActivity() {
                     setCurrentFragment(homeFragment, "home")
                 }
                 R.id.person -> setCurrentFragment(personFragment, "person")
-                R.id.settings -> setCurrentFragment(settingsFragment, "settings")
+                R.id.settings -> {
+                    setCurrentFragment(settingsFragment, "settings")
+                }
             }
             true
         }
