@@ -13,8 +13,10 @@
         <entry key="app/src/main/res/drawable/vector_example.xml" value="0.2055" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.3729166666666667" />
-        <entry key="app/src/main/res/layout/fragment_person.xml" value="0.35885416666666664" />
+        <entry key="app/src/main/res/layout/fragment_person.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.35885416666666664" />
+        <entry key="app/src/main/res/layout/item_person.xml" value="0.19270833333333334" />
+        <entry key="app/src/main/res/layout/person_item.xml" value="0.22277679443359372" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/home.xml" value="0.1" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/person.xml" value="0.2005" />

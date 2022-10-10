@@ -7,6 +7,5 @@
         android:valueTo="360"
         android:repeatCount="infinite"
         android:repeatMode="restart"
-        android:duration="600"
-        android:valueType="floatType"/>
+        android:duration="600" />
 </set>
