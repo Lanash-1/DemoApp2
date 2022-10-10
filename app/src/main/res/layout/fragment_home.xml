@@ -5,11 +5,11 @@
     android:layout_height="match_parent"
     tools:context=".HomeFragment">
 
-    <ImageView
-        android:id="@+id/animVect"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/animated_settings_ic"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Shape"
+    android:background="@drawable/new_shape" />
 
 
 </FrameLayout>
